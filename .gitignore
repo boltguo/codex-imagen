@@ -1,0 +1,10 @@
+node_modules/
+dist/
+artifacts/
+output/
+*.tgz
+.DS_Store
+.env
+.env.*
+auth.json
+*.lock/

@@ -1,0 +1,12 @@
+codex-imagen
+
+This TypeScript implementation is adapted from jdmnk/codex-imagegen-cli,
+Copyright 2026 codex-imagegen-cli contributors, licensed under Apache-2.0.
+Upstream: https://github.com/jdmnk/codex-imagegen-cli
+Based on commit bf126f9052723a93ed2dada138df08b66d10d560.
+
+Changes: rewritten in TypeScript for Node.js; Sharp image processing; modular
+client and npm CLI; prompt-based aspect-ratio guidance; per-line batch error
+isolation; bounded HTTP/SSE readers; cross-platform credential refresh locking.
+
+This is an independent third-party project, unaffiliated with OpenAI.

@@ -1,0 +1,60 @@
+{
+  "name": "codex-imagen",
+  "version": "0.1.1",
+  "description": "Generate and edit images locally using your existing file-based Codex ChatGPT login.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "bin": {
+    "codex-imagen": "dist/cli.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "examples",
+    "docs",
+    "LICENSE",
+    "NOTICE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "npm run clean && tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "format": "prettier --write src test docs package.json tsconfig.json README.md",
+    "format:check": "prettier --check src test docs package.json tsconfig.json README.md",
+    "test": "npm run build && node --test test/*.test.mjs",
+    "prepack": "npm run build",
+    "clean": "node --input-type=module -e \"import { rmSync } from 'node:fs'; rmSync('dist', { recursive: true, force: true });\""
+  },
+  "dependencies": {
+    "proper-lockfile": "^4.1.2",
+    "sharp": "^0.35.5",
+    "smol-toml": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/proper-lockfile": "^4.1.4",
+    "prettier": "^3.9.10",
+    "typescript": "^7.0.2"
+  },
+  "keywords": [
+    "codex",
+    "image-generation",
+    "cli",
+    "typescript"
+  ]
+}

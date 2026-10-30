@@ -1,0 +1,3 @@
+{"mode":"generate","prompt":"A flat illustration of a lighthouse by a calm lake, muted blue and cream colors, no text","out":"generated/lighthouse.png"}
+{"mode":"edit","prompt":"Add a small sailboat to the lake while preserving the original scene and flat illustration style.","images":["examples/inputs/scene.svg"],"out":"edited/lake-with-sailboat.webp"}
+{"prompt":"A flat illustration of a mountain cabin in the same muted blue and cream color family, no text","out":"generated/cabin.webp"}

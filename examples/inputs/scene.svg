@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <title>Sample mountain lake landscape</title>
+  <rect width="1200" height="900" fill="#f6f3e9"/>
+  <circle cx="930" cy="190" r="82" fill="#efc76b"/>
+  <path d="M0 580 300 210 600 580 840 300 1200 650V900H0Z" fill="#86a7b0"/>
+  <path d="m300 210-88 109 88-31 89 31Z" fill="#ffffff"/>
+  <path d="M0 650Q300 580 600 650T1200 650V900H0Z" fill="#397f9a"/>
+  <path d="M300 740h380m-230 60h500m-700 40h300" fill="none" stroke="#d4e6e8" stroke-width="9" stroke-linecap="round"/>
+</svg>

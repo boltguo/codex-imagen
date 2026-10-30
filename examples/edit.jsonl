@@ -1,0 +1,3 @@
+{"mode":"edit","prompt":"Change the daylight landscape into a warm sunset scene. Preserve the mountain silhouettes, lake, and overall composition.","images":["examples/inputs/scene.svg"],"out":"sunset.png"}
+{"prompt":"Render this landscape as a loose watercolor painting. Preserve the arrangement of the mountains, sun, and lake.","images":["examples/inputs/scene.svg"],"out":"watercolor.webp"}
+{"mode":"edit","prompt":"Change the blue circular emblem into a red circular emblem. Preserve its centered position and white background.","images":["examples/inputs/emblem.svg"],"out":"red-emblem.png"}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="600" viewBox="0 0 900 600">
+  <title>Sample warm color palette</title>
+  <rect width="900" height="600" fill="#faf5e9"/>
+  <rect x="90" y="120" width="180" height="360" rx="16" fill="#b74b3c"/>
+  <rect x="270" y="120" width="180" height="360" rx="16" fill="#e59654"/>
+  <rect x="450" y="120" width="180" height="360" rx="16" fill="#f1cc83"/>
+  <rect x="630" y="120" width="180" height="360" rx="16" fill="#64735a"/>
+</svg>

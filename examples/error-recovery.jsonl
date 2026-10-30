@@ -1,0 +1,4 @@
+{"prompt":"A flat illustration of a blue circle on a white background","out":"before-error.png"}
+{"prompt":123,"out":"invalid-prompt.png"}
+{"prompt":"This job deliberately demonstrates output directory confinement","out":"../outside-output.png"}
+{"prompt":"A flat illustration of a red circle on a white background","out":"after-error.webp"}
